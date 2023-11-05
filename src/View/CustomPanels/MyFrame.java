@@ -205,16 +205,16 @@ public class MyFrame extends JFrame implements ActionListener, KeyListener {
 		int keyCode = e.getKeyCode();
 		if (snakeMove.isAlive()) {
 			switch (keyCode) {
-				case KeyEvent.VK_UP:
+				case KeyEvent.VK_W:
 					snakeMove.addNewDirection("u");
 					break;
-				case KeyEvent.VK_DOWN:
+				case KeyEvent.VK_S:
 					snakeMove.addNewDirection("d");
 					break;
-				case KeyEvent.VK_LEFT:
+				case KeyEvent.VK_A:
 					snakeMove.addNewDirection("l");
 					break;
-				case KeyEvent.VK_RIGHT:
+				case KeyEvent.VK_D:
 					snakeMove.addNewDirection("r");
 					break;
 			}
